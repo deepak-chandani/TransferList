@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  gap: 10px;
+  border: 1px solid lightgray;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0px 10px;
+  margin-inline: auto;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 15px 20px;
+}
+
+.transfer-list-container {
+  padding-block: 10px;
+}
+
+.transfer-list-container .stats {
+  border-block: 2px solid lightgray;
+  margin-block: 10px;
+  padding-block: 10px;
+}
+
+.stats p {
+  margin: 0;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
